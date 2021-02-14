@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Draggble</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <div class="gooey">
+      <div class="group1">
+        <span class="group1"></span>
+        <span class="group1"></span>
+        <span class="group1"></span>
+        <span class="group1"></span>
+        <span class="group1"></span>
+        <span class="group1"></span>
+      </div>
+      <div class="group2">
+        <span class="group2"></span>
+        <span class="group2"></span>
+        <span class="group2"></span>
+        <span class="group2"></span>
+        <span class="group2"></span>
+        <span class="group2"></span>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(function(){
+      $(".gooey span").draggable()
+    })
+  </script>
+</body>
+</html>
